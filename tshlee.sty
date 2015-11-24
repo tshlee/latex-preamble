@@ -1,0 +1,45 @@
+\usepackage{color}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{bbm}  % for roman-style R,Z,N,1,etc
+%\usepackage[linesnumbered,ruled]{algorithm2e}
+
+\usepackage{xspace}
+\newcommand*{\eg}{{\it e}.{\it g}.\@\xspace}
+\newcommand*{\ie}{{\it i}.{\it e}.\@\xspace}
+\newcommand*{\vs}{{\it vs}.\@\xspace}
+\makeatletter
+\newcommand*{\etc}{%
+    \@ifnextchar{.}%
+        {{\it etc}}%
+        {{\it etc}.\@\xspace}%
+}
+\newcommand*{\etal}{%
+    \@ifnextchar{.}%
+        {{\it et al}}%
+        {{\it et al}.\@\xspace}%
+}
+\makeatother
+
+%\newcommand*{\etal}{{\it etal}.\@\xspace}
+
+\newcommand{\tlNote}[1]{{\color{red}(#1)}}
+
+%\newcommand{\tlHighlight}[1]{\colorbox{red}{\hl{#1}}}
+%\newcommand{\tlHighlight}[1]{\hl{#1}}
+%\newcommand{\tlHighlight}[1]{#1}
+
+\newcommand{\tu}[1]{\mathbf{#1}}
+\newcommand{\mat}[1]{\begin{bmatrix}#1\end{bmatrix}}
+\newcommand{\tx}[1]{\text{#1}}
+
+\newcommand{\itemList}[2]{#1\begin{enumerate}#2\end{enumerate}}
+\newcommand{\itemSet}[2]{#1\begin{itemize}#2\end{itemize}}
+
+
+
+
+
+\DeclareMathOperator{\sgn}{sign}
+\DeclareMathOperator{\atan}{arctan}
+
